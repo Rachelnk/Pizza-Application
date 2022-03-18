@@ -1,6 +1,22 @@
-function Pizza (typeP) {
+function Pizza (typeP, size, crust, toppings, pizzanumber) {
   this.pizzaType=typeP
+  this.pizzaSize = size;
+  this.pizzaCrust = crust;
+  this.pizzaTops = toppings;
+  this.pizzaCount = pizzanumber;
+  Pizza.prototype.fullDetails = function() {
+    return this.typeP + "," + this.size + "," + this.crust + "," + this.toppings;
+  }
+  // this.pizzaDesc = [];
 }
+// function PizzaDetails (size, crust, toppings) {
+//   this.pizzaSize = size;
+//   this.pizzaCrust = crust;
+//   this.pizzaTops = toppings;
+//   // PizzaDetails.prototype.fullDetails = function() {
+//   //   return this.typeP + "," + this.size + "," + this.crust + "," + this.toppings;
+//   // }
+// }
 $(document).ready(function(){
   $("#pizza1image").click(function(){
     $("#pizza1detail").show();
@@ -26,23 +42,28 @@ $(document).ready(function(){
     $("#pizza6detail").show();
     $("#pizza6image").hide();
   });
-  $("#pizza7image").click(function(){
-    $("#pizza7detail").show();
-    $("#pizza7image").hide();
-  });
-  $("#pizza8image").click(function(){
-    $("#pizza8detail").show();
-    $("#pizza8image").hide();
-  });
-  $("#pizza9image").click(function(){
-    $("#pizza9detail").show();
-    $("#pizza9image").hide();
-  });
-  $("#pizzaorder").submit(function(){
-    var inputtedPizzatype = $().val();
-    var inputtedPizzaSize = $().val();
-    var inputtedPizzaCrust = $().val();
-    var inputtedPizzaToppings = $().val();
+  
+  $("#pizzaorder").submit(function(event){
+      event.preventDefault();
+
+    var inputtedPizzaType = $("#pizzatype").val();
+    var inputtedPizzaSize = $("#pizzasize").val();
+    var inputtedPizzaCrust = $("#crust").val();
+    var inputtedPizzaToppings = $("#toppings").val();
+    var inputtedPizzaNumber =$ ("#numberofpizza").val();
+
+    var newPizza = new Pizza(inputtedPizzaType, inputtedPizzaSize, inputtedPizzaCrust,inputtedPizzaToppings, inputtedPizzaNumber);
+
+    $
+    
+   
+    $(".item-one").text(newPizza.pizzaType);
+    $(".item-two").text(newPizza.pizzaSize);
+    $(".item-three").text(newPizza.pizzaCrust);
+    $(".item-four").text(newPizza.pizzaTops);
+    $()
+    
+
     
   });
 
