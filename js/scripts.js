@@ -112,156 +112,271 @@ $(document).ready(function(){
      }
      break;
      case inputtedPizzaType = "bbqsteak":
-       switch(inputtedPizzaSize) {
-        case inputtedPizzaSize = "small":
-          price = 500;
-          if(inputtedPizzaCrust === "crispy") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-   
-          } else if (inputtedPizzaCrust === "cheesestuffed") {
-            totalPrice = (price * inputtedPizzaNumber) + 150;
-          } else if (inputtedPizzaCrust === "glutenfree") {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          } else if (inputtedPizzaCrust === "flatbread") {
-           totalPrice = (price * inputtedPizzaNumber) + 100
-         }
-         else {
-           totalPrice = (price * inputtedPizzaNumber) + 200
-         }
-         break;
-         case inputtedPizzaSize = "medium":
-           price = 850;
-           if(inputtedPizzaCrust === "crispy") {
-             totalPrice = (price * inputtedPizzaNumber) + 100
-    
-           } else if (inputtedPizzaCrust === "cheesestuffed") {
-             totalPrice = (price * inputtedPizzaNumber) + 150;
-           } else if (inputtedPizzaCrust === "glutenfree") {
-             totalPrice = (price * inputtedPizzaNumber) + 200
-           } else if (inputtedPizzaCrust === "flatbread") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-          }
-          else {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          }
-          break;
-          case inputtedPizzaSize = "large":
-          price = 1500;
-          if(inputtedPizzaCrust === "crispy") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-   
-          } else if (inputtedPizzaCrust === "cheesestuffed") {
-            totalPrice = (price * inputtedPizzaNumber) + 150;
-          } else if (inputtedPizzaCrust === "glutenfree") {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          } else if (inputtedPizzaCrust === "flatbread") {
-           totalPrice = (price * inputtedPizzaNumber) + 100
-         }
-         else {
-           totalPrice = (price * inputtedPizzaNumber) + 200
-         }
-         break;
-        
+     switch(inputtedPizzaSize) {
+       case inputtedPizzaSize = "small":
+       price = 500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      case inputtedPizzaSize = "medium":
+        price = 850;
+        if(inputtedPizzaCrust === "crispy") {
+          totalPrice = (price * inputtedPizzaNumber) + 100
+ 
+        } else if (inputtedPizzaCrust === "cheesestuffed") {
+          totalPrice = (price * inputtedPizzaNumber) + 150;
+        } else if (inputtedPizzaCrust === "glutenfree") {
+          totalPrice = (price * inputtedPizzaNumber) + 200
+        } else if (inputtedPizzaCrust === "flatbread") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+       }
+       else {
+         totalPrice = (price * inputtedPizzaNumber) + 200
        }
        break;
-       case inputtedPizzaType ="chickentikka":
-        case inputtedPizzaSize = "small":
-          price = 500;
-          if(inputtedPizzaCrust === "crispy") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-   
-          } else if (inputtedPizzaCrust === "cheesestuffed") {
-            totalPrice = (price * inputtedPizzaNumber) + 150;
-          } else if (inputtedPizzaCrust === "glutenfree") {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          } else if (inputtedPizzaCrust === "flatbread") {
-           totalPrice = (price * inputtedPizzaNumber) + 100
-         }
-         else {
-           totalPrice = (price * inputtedPizzaNumber) + 200
-         }
-         break;
-         case inputtedPizzaSize = "medium":
-           price = 850;
-           if(inputtedPizzaCrust === "crispy") {
-             totalPrice = (price * inputtedPizzaNumber) + 100
-    
-           } else if (inputtedPizzaCrust === "cheesestuffed") {
-             totalPrice = (price * inputtedPizzaNumber) + 150;
-           } else if (inputtedPizzaCrust === "glutenfree") {
-             totalPrice = (price * inputtedPizzaNumber) + 200
-           } else if (inputtedPizzaCrust === "flatbread") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-          }
-          else {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          }
-          break;
-          case inputtedPizzaSize = "large":
-          price = 1500;
-          if(inputtedPizzaCrust === "crispy") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-   
-          } else if (inputtedPizzaCrust === "cheesestuffed") {
-            totalPrice = (price * inputtedPizzaNumber) + 150;
-          } else if (inputtedPizzaCrust === "glutenfree") {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          } else if (inputtedPizzaCrust === "flatbread") {
-           totalPrice = (price * inputtedPizzaNumber) + 100
-         }
-         else {
-           totalPrice = (price * inputtedPizzaNumber) + 200
-         }
-         break;
-         case inputtedPizzaType ="chickenmushroom":
-        case inputtedPizzaSize = "small":
-          price = 500;
-          if(inputtedPizzaCrust === "crispy") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-   
-          } else if (inputtedPizzaCrust === "cheesestuffed") {
-            totalPrice = (price * inputtedPizzaNumber) + 150;
-          } else if (inputtedPizzaCrust === "glutenfree") {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          } else if (inputtedPizzaCrust === "flatbread") {
-           totalPrice = (price * inputtedPizzaNumber) + 100
-         }
-         else {
-           totalPrice = (price * inputtedPizzaNumber) + 200
-         }
-         break;
-         case inputtedPizzaSize = "medium":
-           price = 850;
-           if(inputtedPizzaCrust === "crispy") {
-             totalPrice = (price * inputtedPizzaNumber) + 100
-    
-           } else if (inputtedPizzaCrust === "cheesestuffed") {
-             totalPrice = (price * inputtedPizzaNumber) + 150;
-           } else if (inputtedPizzaCrust === "glutenfree") {
-             totalPrice = (price * inputtedPizzaNumber) + 200
-           } else if (inputtedPizzaCrust === "flatbread") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-          }
-          else {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          }
-          break;
-          case inputtedPizzaSize = "large":
-          price = 1500;
-          if(inputtedPizzaCrust === "crispy") {
-            totalPrice = (price * inputtedPizzaNumber) + 100
-   
-          } else if (inputtedPizzaCrust === "cheesestuffed") {
-            totalPrice = (price * inputtedPizzaNumber) + 150;
-          } else if (inputtedPizzaCrust === "glutenfree") {
-            totalPrice = (price * inputtedPizzaNumber) + 200
-          } else if (inputtedPizzaCrust === "flatbread") {
-           totalPrice = (price * inputtedPizzaNumber) + 100
-         }
-         else {
-           totalPrice = (price * inputtedPizzaNumber) + 200
-         }
-         break;
+       case inputtedPizzaSize = "large":
+       price = 1500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      
+     }
+     break;
+     case inputtedPizzaType = "chickentikka":
+     switch(inputtedPizzaSize) {
+       case inputtedPizzaSize = "small":
+       price = 500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      case inputtedPizzaSize = "medium":
+        price = 850;
+        if(inputtedPizzaCrust === "crispy") {
+          totalPrice = (price * inputtedPizzaNumber) + 100
+ 
+        } else if (inputtedPizzaCrust === "cheesestuffed") {
+          totalPrice = (price * inputtedPizzaNumber) + 150;
+        } else if (inputtedPizzaCrust === "glutenfree") {
+          totalPrice = (price * inputtedPizzaNumber) + 200
+        } else if (inputtedPizzaCrust === "flatbread") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+       }
+       else {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       }
+       break;
+       case inputtedPizzaSize = "large":
+       price = 1500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      
+     }
+     break;
+     case inputtedPizzaType = "chickenmushroom":
+     switch(inputtedPizzaSize) {
+       case inputtedPizzaSize = "small":
+       price = 500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      case inputtedPizzaSize = "medium":
+        price = 850;
+        if(inputtedPizzaCrust === "crispy") {
+          totalPrice = (price * inputtedPizzaNumber) + 100
+ 
+        } else if (inputtedPizzaCrust === "cheesestuffed") {
+          totalPrice = (price * inputtedPizzaNumber) + 150;
+        } else if (inputtedPizzaCrust === "glutenfree") {
+          totalPrice = (price * inputtedPizzaNumber) + 200
+        } else if (inputtedPizzaCrust === "flatbread") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+       }
+       else {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       }
+       break;
+       case inputtedPizzaSize = "large":
+       price = 1500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      
+     }
+     break;
+     case inputtedPizzaType = "vegtikka":
+     switch(inputtedPizzaSize) {
+       case inputtedPizzaSize = "small":
+       price = 500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      case inputtedPizzaSize = "medium":
+        price = 850;
+        if(inputtedPizzaCrust === "crispy") {
+          totalPrice = (price * inputtedPizzaNumber) + 100
+ 
+        } else if (inputtedPizzaCrust === "cheesestuffed") {
+          totalPrice = (price * inputtedPizzaNumber) + 150;
+        } else if (inputtedPizzaCrust === "glutenfree") {
+          totalPrice = (price * inputtedPizzaNumber) + 200
+        } else if (inputtedPizzaCrust === "flatbread") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+       }
+       else {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       }
+       break;
+       case inputtedPizzaSize = "large":
+       price = 1500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      
+     }
+     break;
+     case inputtedPizzaType = "beefpepperoni":
+     switch(inputtedPizzaSize) {
+       case inputtedPizzaSize = "small":
+       price = 500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      case inputtedPizzaSize = "medium":
+        price = 850;
+        if(inputtedPizzaCrust === "crispy") {
+          totalPrice = (price * inputtedPizzaNumber) + 100
+ 
+        } else if (inputtedPizzaCrust === "cheesestuffed") {
+          totalPrice = (price * inputtedPizzaNumber) + 150;
+        } else if (inputtedPizzaCrust === "glutenfree") {
+          totalPrice = (price * inputtedPizzaNumber) + 200
+        } else if (inputtedPizzaCrust === "flatbread") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+       }
+       else {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       }
+       break;
+       case inputtedPizzaSize = "large":
+       price = 1500;
+       if(inputtedPizzaCrust === "crispy") {
+         totalPrice = (price * inputtedPizzaNumber) + 100
+
+       } else if (inputtedPizzaCrust === "cheesestuffed") {
+         totalPrice = (price * inputtedPizzaNumber) + 150;
+       } else if (inputtedPizzaCrust === "glutenfree") {
+         totalPrice = (price * inputtedPizzaNumber) + 200
+       } else if (inputtedPizzaCrust === "flatbread") {
+        totalPrice = (price * inputtedPizzaNumber) + 100
+      }
+      else {
+        totalPrice = (price * inputtedPizzaNumber) + 200
+      }
+      break;
+      
+     }
+     break;
+     
       
    }
 
