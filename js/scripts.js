@@ -1,3 +1,6 @@
+function Pizza (typeP) {
+  this.pizzaType=typeP
+}
 $(document).ready(function(){
   $("#pizza1image").click(function(){
     $("#pizza1detail").show();
@@ -34,6 +37,13 @@ $(document).ready(function(){
   $("#pizza9image").click(function(){
     $("#pizza9detail").show();
     $("#pizza9image").hide();
+  });
+  $("#pizzaorder").submit(function(){
+    var inputtedPizzatype = $().val();
+    var inputtedPizzaSize = $().val();
+    var inputtedPizzaCrust = $().val();
+    var inputtedPizzaToppings = $().val();
+    
   });
 
 });
