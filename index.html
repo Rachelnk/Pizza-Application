@@ -17,7 +17,57 @@
   <div class="container">
     <div class="banner"></div>
     <div class="menu"></div>
+
+    <!-- Place Pizza order -->
     <div class="order"></div>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Place Order</h2>
+        <form action="" id="pizzaorder">
+          <div class="form-group">
+            <label for="Pizza Type">Pizza Flavor</label>
+              <select name="" id="pizzatype">
+                <option value="hawaiian">Hawaiian</option>
+                <option value="bbqsteak">BBQ Steak</option>
+                <option value="chickentikka">Chicken Tikka</option>
+                <option value="chickenmushroom">Chicken Mushroom</option>
+                <option value="vegtikka">Veg Tikka</option>
+                <option value="beefpepperoni">Beef Pepperoni</option>
+                <option value="chickenhawaiian">Chicken Hawaiian</option>
+                <option value="periperichicken">Peri Peri Chicken</option>
+              
+              </select>
+              
+          </div>
+          <div class="form-group">
+            <label for="pizzasize">Pizza Size</label>
+              <select name="" id="pizzasize">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="Pizza Crust">Pizza Crust</label>
+              <select name="" id="pizzacrust"></select>
+          </div>
+         
+          <button type="submit" class="btn">Add</button>
+
+        </form>
+        <h2>Contacts:</h2>
+        <ul id="items">
+
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-list">
+          <h2></h2>
+          <p>First Item: <span class="item-one"></Item:span></p>
+          <p>Second Item: <span class="item-two"></span></p>
+        </div>
+      </div>
+    </div>
     <div class="summary"></div>
     <div class="footer"></div>
   </div>
