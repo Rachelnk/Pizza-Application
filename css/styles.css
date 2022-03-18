@@ -16,8 +16,18 @@
        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.row {
+/* .row {
   display: flex;
   margin-left: -10px;
   margin-right: -10px;
+} */
+#pizza1detail, #pizza2detail, #pizza3detail, #pizza4detail, #pizza5detail, #pizza6detail, #pizza7detail, #pizza8detail, #pizza9detail {
+  display: none;
+  font-size: 18px;
+  
+
+}
+.menu p {
+  font-size: 25px;
+  font-weight: bold;
 }
