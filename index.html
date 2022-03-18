@@ -42,30 +42,32 @@
           <div class="form-group">
             <label for="pizzasize">Pizza Size</label>
               <select name="" id="pizzasize">
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
+                <option value="small">Small @ 500</option>
+                <option value="medium">Medium @ 900</option>
+                <option value="large">Large @ 1200</option>
               </select>
           </div>
           <div class="form-group">
             <label for="pizzacrust">Pizza Crust</label>
               <select name="" id="crust">
-                <option value="crispy">Crispy</option>
-                <option value="cheesestuffed">Cheese Stuffed</option>
-                <option value="glutenfree">Gluten Free</option>
-                <option value="flatbread">Flatbread</option>
-                <option value="sicilianstyle">sicilian Style</option>
+                <option value="crispy">Crispy @ 100</option>
+                <option value="cheesestuffed">Cheese Stuffed @ 150</option>
+                <option value="glutenfree">Gluten Free @ 200</option>
+                <option value="flatbread">Flatbread @ 100</option>
+                <option value="sicilianstyle">Sicilian Style @ 300</option>
               </select>
           </div>
           <div class="form-group">
             <label for="toppings">Pizza Toppings</label>
             <select name="" id="toppings">
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
+              <option value="roastedtomatoes">Roasted Tomatoes</option>
+              <option value="caramelizedonions">Caramelized Onions</option>
+              <option value="bbqsauce">Bbq Sauce</option>
+              <option value="garlic">Garlic butter prawns and chilli</option>
+              <option value="spicy">Hot and spicy</option>
             </select>
           </div>
-         
+                  
           <button type="submit" class="btn">Add</button>
 
         </form>
@@ -76,9 +78,17 @@
       </div>
       <div class="col-md-6">
         <div id="show-list">
-          <h2></h2>
-          <p>First Item: <span class="item-one"></Item:span></p>
-          <p>Second Item: <span class="item-two"></span></p>
+          <div class="summary">
+            <h3>Order Summary</h3>
+            <p>Pizza Type: <span class="item-one"></span></p>
+            <p>Pizza Size: <span class="item-two"></span></p>
+            <p>Pizza Crust: <span class="item-three"></span></p>
+            <p>Pizza Toppings: <span class="item-four"></span></p>
+            <p>Order total: <span class="item-five"></span></p>
+
+          </div>
+          
+          
         </div>
       </div>
     </div>
