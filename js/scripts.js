@@ -1,22 +1,15 @@
-function Pizza (typeP, size, crust, toppings, pizzanumber) {
+function Pizza (typeP, size, crust, toppings, pizzanumber, totalOrder) {
   this.pizzaType=typeP
   this.pizzaSize = size;
   this.pizzaCrust = crust;
   this.pizzaTops = toppings;
   this.pizzaCount = pizzanumber;
+  this.orderPrice = totalOrder;
   Pizza.prototype.fullDetails = function() {
     return this.typeP + "," + this.size + "," + this.crust + "," + this.toppings;
   }
-  // this.pizzaDesc = [];
+
 }
-// function PizzaDetails (size, crust, toppings) {
-//   this.pizzaSize = size;
-//   this.pizzaCrust = crust;
-//   this.pizzaTops = toppings;
-//   // PizzaDetails.prototype.fullDetails = function() {
-//   //   return this.typeP + "," + this.size + "," + this.crust + "," + this.toppings;
-//   // }
-// }
 $(document).ready(function(){
   $("#pizza1image").click(function(){
     $("#pizza1detail").show();
@@ -52,7 +45,7 @@ $(document).ready(function(){
     var inputtedPizzaToppings = $("#toppings").val();
     var inputtedPizzaNumber = $("#numberofpizza").val();
 
-    var newPizza = new Pizza(inputtedPizzaType, inputtedPizzaSize, inputtedPizzaCrust,inputtedPizzaToppings, inputtedPizzaNumber);
+   
 
     //calculate total price of order
     let price;
@@ -378,7 +371,22 @@ $(document).ready(function(){
      break;
      
       
-   }
+   };
+   switch (inputtedPizzaToppings) {
+     case inputtedPizzaToppings = "roastedtomatoes":
+     totalPrice = totalPrice + 90 ;
+     break;
+     case inputtedPizzaToppings = "caramelizedonions":
+     totalPrice = totalPrice + 90 ;
+     break;
+     case inputtedPizzaToppings = "bbqsauce":
+     totalPrice = totalPrice + 150 ;
+     break;
+     case inputtedPizzaToppings = "spicy":
+     totalPrice = totalPrice + 100 ;
+     break;
+   };
+   var newPizza = new Pizza(inputtedPizzaType, inputtedPizzaSize, inputtedPizzaCrust,inputtedPizzaToppings, inputtedPizzaNumber, totalPrice);
 
 
     
@@ -388,6 +396,8 @@ $(document).ready(function(){
     $(".item-three").text(newPizza.pizzaCrust);
     $(".item-four").text(newPizza.pizzaTops);
     $(".item-five").text(newPizza.pizzaCount);
+    alert(totalPrice);
+    // $(".item-six").text(newPizza.totalPrice);
     
 
     
