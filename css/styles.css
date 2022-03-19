@@ -1,3 +1,17 @@
+body {
+  height: auto;
+
+}
+.banner {
+  background-image: url("/img/banner/banner5.jpeg");
+  padding: 20px;
+
+}
+h1, h2, h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+
+}
 .form-select {
   display: block;
   width: 100%;
