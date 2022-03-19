@@ -10,6 +10,11 @@ body {
 h1, h2, h3 {
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
+  text-align: center;
+
+}
+p {
+  font-family: 'Francois One', sans-serif;
 
 }
 .form-select {
