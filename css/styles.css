@@ -43,10 +43,16 @@ p {
 #pizza1detail, #pizza2detail, #pizza3detail, #pizza4detail, #pizza5detail, #pizza6detail, #pizza7detail, #pizza8detail, #pizza9detail {
   display: none;
   font-size: 18px;
-  
 
 }
 .menu p {
   font-size: 25px;
   font-weight: bold;
+}
+.summary p {
+  font-size: 15px;
+}
+footer {
+  text-align: center;
+
 }

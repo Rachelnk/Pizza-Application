@@ -94,7 +94,7 @@
         <form action="" id="pizzaorder">
           <div class="form-group">
             <label for="Pizza Type">Pizza Flavor</label>
-              <select name="" id="pizzatype" class="form-select">
+              <select name="" id="pizzatype" class="form-select" required>
                 <option selected>Select option...</option>
                 <option value="hawaiian">Hawaiian</option>
                 <option value="bbqsteak">BBQ Steak</option>
@@ -118,7 +118,7 @@
           </div>
           <div class="form-group">
             <label for="pizzacrust">Pizza Crust</label>
-              <select name="" id="crust" class="form-select">
+              <select name="" id="crust" class="form-select" required>
                 <option selected>Select option...</option>
                 <option value="crispy">Crispy @ 100</option>
                 <option value="cheesestuffed">Cheese Stuffed @ 150</option>
@@ -129,7 +129,7 @@
           </div>
           <div class="form-group">
             <label for="toppings">Pizza Toppings</label>
-            <select name="" id="toppings" class="form-select">
+            <select name="" id="toppings" class="form-select" required>
               <option selected>Select option...</option>
               <option value="roastedtomatoes">Roasted Tomatoes @ 90</option>
               <option value="caramelizedonions">Caramelized Onions @ 90</option>
@@ -143,7 +143,7 @@
             
           </div>
                   
-          <button type="submit" class="btn">Add</button>
+          <button type="submit" class="btn btn-primary">Add</button>
 
         </form>
         <h2>Order:</h2>
@@ -161,6 +161,8 @@
             <p>Pizza Toppings: <span class="item-four"></span></p>
             <p>Number of Pizza: <span class="item-five"></span></p>
             <p>Order total: <span class="item-six"></span></p>
+            <button type="submit" class="btn btn-primary" id="delivery">Request Delivery</button>
+            <button type="submit" class="btn btn-primary" id="pickup">Pick Up</button>
 
           </div>
           
@@ -168,7 +170,24 @@
         </div>
       </div>
     </div>
-    <div class="footer"></div>
+    <footer>
+     <p>
+      <img src="/img/social_icons/behance.png" alt="" srcset="">
+      <img src="/img/social_icons/dribble.png" alt="" srcset="">
+      <img src="/img/social_icons/twitter.png" alt="" srcset="">
+     </p> 
+     <p>
+      Kiarie's Pizza Joint.
+     </p>
+     <p id = "currentyear"></p>
+    </footer>
+    <script>
+      const d = new Date ();
+      let year = d.getFullYear();
+      document.getElementById("currentyear").innerHTML=year;
+    </script>
+    
+
   </div>
   
 </body>
