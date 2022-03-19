@@ -155,14 +155,40 @@
         <div id="show-list">
           <div class="summary">
             <h3>Order Summary</h3>
-            <p>Pizza Type: <span class="item-one"></span></p>
+            <div class="col-md-4">
+              <p>Pizza Type: <span class="item-one"></span></p>
             <p>Pizza Size: <span class="item-two"></span></p>
             <p>Pizza Crust: <span class="item-three"></span></p>
-            <p>Pizza Toppings: <span class="item-four"></span></p>
+            </div>
+            <div class="col-md-4">
+              <p>Pizza Toppings: <span class="item-four"></span></p>
             <p>Number of Pizza: <span class="item-five"></span></p>
-            <p>Order total: <span class="item-six"></span></p>
-            <button type="submit" class="btn btn-primary" id="delivery">Request Delivery</button>
+            <p>Order total: <span class="item-six"></span></p> <br>
+            </div>
+            <div class="col-md-12">
+             
+            <div class="delivery-form">
+              <form action="" id="delivery-info">
+                <div class="form-group">
+                  <label for="name">Fullname</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="location">Location</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="name">Phone Number</label>
+                  <input type="text" class="form-control">
+                </div>
+                <button type="button" class="btn btn-primary" id="delivery">Request Delivery</button> <br>
+              </form>
+              
+            </div>
             <button type="submit" class="btn btn-primary" id="pickup">Pick Up</button>
+            </div>
+            
+            
 
           </div>
           

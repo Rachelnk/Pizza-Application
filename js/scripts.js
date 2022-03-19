@@ -388,8 +388,6 @@ $(document).ready(function(){
    };
    var newPizza = new Pizza(inputtedPizzaType, inputtedPizzaSize, inputtedPizzaCrust,inputtedPizzaToppings, inputtedPizzaNumber, totalPrice);
 
-
-    
    
     $(".item-one").text(newPizza.pizzaType);
     $(".item-two").text(newPizza.pizzaSize);
