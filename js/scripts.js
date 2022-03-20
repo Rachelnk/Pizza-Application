@@ -394,7 +394,7 @@ $(document).ready(function(){
     $(".item-three").text(newPizza.pizzaCrust);
     $(".item-four").text(newPizza.pizzaTops);
     $(".item-five").text(newPizza.pizzaCount);
-    alert(totalPrice);
+    alert("Your total price is " + totalPrice);
     // $(".item-six").text(newPizza.totalPrice);
     
 

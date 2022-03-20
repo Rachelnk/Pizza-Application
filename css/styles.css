@@ -3,8 +3,18 @@ body {
 
 }
 .banner {
-  background-image: url("/img/banner/banner5.jpeg");
+  background-image: url("/img/banner/banner7.webp");
   padding: 20px;
+
+}
+.banner h1 {
+  font-size: 70px;
+  color: white;
+
+}
+.banner p { 
+  font-size: 40px;
+  color: white;
 
 }
 h1, h2, h3 {
