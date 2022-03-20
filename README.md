@@ -1,5 +1,5 @@
 # Pizza-Application
-This is a pizza website.
+This is a pizza restaurant website.
 #### Rachel Kiarie
 
 ## Description
