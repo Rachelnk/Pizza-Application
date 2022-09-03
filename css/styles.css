@@ -1,10 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   height: auto;
 
 }
+.nav-item{
+  font-size: 30px; 
+  padding: 0 20px;
+  padding-top: 10px !important;
+}
+.navbar-brand{
+  font-size: 60px;
+}
+nav{
+  background-color:white;
+}
 .banner {
-  background-image: url("/img/banner/banner7.webp");
+  background-image: url("/img/banner/pizza1.jpg");
   padding: 20px;
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 
 }
 .banner h1 {

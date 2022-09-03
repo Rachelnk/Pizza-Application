@@ -8,27 +8,45 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Francois+One&family=Indie+Flower&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">  
-  <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-  <title>Kiarie's Pizza Joint</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
+ <title>Kiarie's Pizza Joint</title>
 </head>
 <body>
+  <nav class='navbar navbar-expand-lg navbar-light sticky-top'>  
   <div class="container">
+    <a class="navbar-brand" href="#home" stle="font-size: 40px;">Kiarie's Pizza Joint </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            
+                    <ul class='navbar-nav mx-auto'>                    
+                      <li class='nav-item' ><a class="nav-link" href="#about">About</a></li>
+                      <li class='nav-item' ><a class="nav-link" href="#menu">Menu</a></li>
+                      <li class='nav-item' ><a class="nav-link" href="#order">Make Order</a></li>                 
+                      <li class='nav-item' style=''><a class="nav-link" href="#about">About</a></li>
+                     
+                      
+                    </ul>                      
+                 
+            </div>   
+  </nav>
     <div class="banner">
-      <h1>Welcome to <em>Kiarie's Pizza Joint!</em> </h1>
-      <p>Serving you the tastiest pizza in town since 2022!</p>
       
     </div>
+    <div class="about">
+      <h2>About</h2>
+      <h1>Welcome to <em>Kiarie's Pizza Joint!</em> </h1>
+      <p>Serving you the tastiest pizza in town since 2022!</p>
+     
+      About</div>
     <div class="menu">
       <h2>MENU</h2>
       <div class="row">
         <div class="col-md-4" id = "pizza1">
           <div id="pizza1image">
-            <img src="/img/menu_icons/pizza1.png" alt="">
+            <img src="/img/menu_icons/pizza1.png" alt="pizza1">
           </div>
           <p>Hawaiian</p> <br>
           <p id="pizza1detail">
@@ -38,7 +56,7 @@
         </div>
         <div class="col-md-4" id="pizza2">
           <div id="pizza2image">
-            <img src="/img/menu_icons/pizza2.png" alt="">
+            <img src="/img/menu_icons/pizza2.png" alt="pizza2">
           </div>
           <p>BBQ Steak</p> <br>
           <p id="pizza2detail">Marinated bbq steak</p>
@@ -46,7 +64,7 @@
         </div>
         <div class="col-md-4" id="pizza3">
           <div id="pizza3image">
-            <img src="/img/menu_icons/pizza3.png" alt="">
+            <img src="/img/menu_icons/pizza3.png" alt="pizza3">
           </div>
           <p>Chicken Tikka</p><br>
           <p id="pizza3detail">Marinated tikka chicken - green pepper - onions</p>
@@ -54,7 +72,7 @@
         </div>
         <div class="col-md-4" id="pizza4">
           <div id="pizza4image">
-            <img src="/img/menu_icons/pizza4.png" alt="">
+            <img src="/img/menu_icons/pizza4.png" alt="pizza4">
           </div>
           <p>Chicken Mushroom</p><br>
           <p id="pizza4detail">
@@ -64,7 +82,7 @@
         </div>
         <div class="col-md-4" id="pizza5">
           <div id="pizza5image">
-            <img src="/img/menu_icons/pizza5.png" alt="">
+            <img src="/img/menu_icons/pizza5.png" alt="pizza5">
           </div>
           <p>Veg Tikka</p> <br>
           <p id="pizza5detail">
@@ -74,7 +92,7 @@
         </div>
         <div class="col-md-4" id="pizza6">
           <div id="pizza6image">
-            <img src="/img/menu_icons/pizza6.png" alt="">
+            <img src="/img/menu_icons/pizza6.png" alt="pizza6">
           </div>
           <p>Beef Pepperoni</p> <br>
           <p id="pizza6detail">Beef pepperoni - mushroom <br> fresh onion</p>
@@ -213,4 +231,11 @@
   </div>
   
 </body>
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </html>
