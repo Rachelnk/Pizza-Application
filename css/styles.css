@@ -20,7 +20,10 @@ nav{
   background-color:white;
 }
 .banner {
+
   background-image: url("/img/banner/pizza1.jpg");
+
+
   padding: 20px;
   background-repeat: no-repeat;
   background-position: relative;

@@ -1,5 +1,9 @@
 # Pizza-Application
+<<<<<<< HEAD
 This is a pizza restaurant website.
+=======
+This is a pizza website.
+>>>>>>> 168f363acc5537e3118b18fb87feea5a17669226
 #### Rachel Kiarie
 
 ## Description
