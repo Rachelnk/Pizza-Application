@@ -78,37 +78,33 @@ p {
   padding-top:30px;
 } */
 .menu{
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 40px 40px 40px 40px;
+  
   background-color:#eceeed;
 }
 .menu, p {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   
 }
-.pizza-description{
+.pizza-description {
   display: flex;
   width: 700px;
 }
 .dot{
-  flex: 3;
+  flex: 1;
   margin:0 10px ;
   border-bottom: 5px dotted black;
   height: 1.0em;
 }
+.pizza-ingredients{
+  font-size: 20px;
+  padding-top: 5px;
+}
 #counter-1, #counter-2{
   color: #f7b13b;
 }
-.left{  
-  margin-left: 20px;
-  background-repeat: no-repeat;
-  background-position: relative;
-  background-size: cover;
-  background-attachment: fixed;  
-  border-radius: 8px;
-}
+
 .right{
 margin-right: 20px;
 }
