@@ -14,6 +14,7 @@ body {
 }
 .navbar-brand{
   font-size: 60px;
+  font-family: 'Lobster', cursive;
 }
 nav{
   background-color:white;
@@ -38,16 +39,65 @@ nav{
   color: white;
 
 }
-h1, h2, h3 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 30px;
+h1, h2, h3, h5, h6, h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
   text-align: center;
 
 }
 p {
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Nanum Myeongjo', serif; 
+  text-align: center;
 
 }
+.about{
+  padding-top: 50px;
+  background-color:#eceeed;
+}
+.about p{
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.qualities{
+  padding-top: 50px;
+  margin: 0 10px 0 10px;
+}
+/* .line{
+  color:#f7b13b;
+} */
+.quality-icons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+/* .about-details {
+  padding-top:30px;
+} */
+.menu{
+  padding-top: 40px;
+}
+.menu, p {
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+#counter-1, #counter-2{
+  color: #f7b13b;
+}
+.left{  
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  background-attachment: fixed;  
+  border-radius: 8px;
+}
+.right{
+margin-right: 20px;
+}
+
 .form-select {
   display: block;
   width: 100%;
@@ -76,10 +126,7 @@ p {
   font-size: 18px;
 
 }
-.menu p {
-  font-size: 25px;
-  font-weight: bold;
-}
+
 .summary p {
   font-size: 15px;
 }
