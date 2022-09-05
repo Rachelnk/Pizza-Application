@@ -8,12 +8,14 @@ body {
 
 }
 .nav-item{
-  font-size: 30px; 
+  font-size: 25px; 
   padding: 0 20px;
   padding-top: 10px !important;
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
 }
 .navbar-brand{
-  font-size: 60px;
+   
   font-family: 'Lobster', cursive;
 }
 nav{
@@ -30,7 +32,6 @@ nav{
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-
 }
 .banner h1 {
   font-size: 70px;
@@ -38,8 +39,14 @@ nav{
 
 }
 .banner p { 
-  font-size: 40px;
-  color: white;
+  color: black;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-color: 
+  #f3b73a;
+  /* background-color: hsl(41,80%,40%); */
+  margin: 150px
+
 
 }
 h1, h2, h3, h5, h6, h4 {
@@ -49,28 +56,26 @@ h1, h2, h3, h5, h6, h4 {
 
 }
 p {
-  font-family: 'Nanum Myeongjo', serif; 
-  
+  font-family: 'Abel', sans-serif;
 
 }
+
 .about{
-  padding-top: 50px;
+  padding-top: 40px;
   background-color:#eceeed;
   text-align: center;
 }
 .about p{
   font-size: 30px;
-  font-weight: bold;
   
 }
 .qualities{
   text-align: center;
   padding-top: 50px;
   margin: 0 10px 0 10px;
+  padding-bottom: 20px;
 }
-/* .line{
-  color:#f7b13b;
-} */
+
 .quality-icons{
   display: block;
   margin-left: auto;
@@ -82,8 +87,16 @@ p {
 } */
 .menu{
   padding: 40px 40px 40px 40px;
+  background-image: url("/img/pics/pizza5.jpg");
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  /* height: 100vh; */
   
-  background-color:#eceeed;
+  /* background-color:#eceeed;
+   */
 }
 .menu, p {
   font-size: 25px;
@@ -99,10 +112,12 @@ p {
   margin:0 10px ;
   border-bottom: 5px dotted black;
   height: 1.0em;
+  
 }
 .pizza-ingredients{
   font-size: 20px;
   padding-top: 5px;
+  font-style: italic;
 }
 #counter-1, #counter-2{
   color: #f7b13b;
@@ -112,7 +127,7 @@ p {
 margin-right: 20px;
 }
 
-.form-select {
+.custom-select  {
   display: block;
   width: 100%;
   height: 34px;
@@ -130,25 +145,197 @@ margin-right: 20px;
        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-/* .row {
-  display: flex;
-  margin-left: -10px;
-  margin-right: -10px;
-} */
-#pizza1detail, #pizza2detail, #pizza3detail, #pizza4detail, #pizza5detail, #pizza6detail, #pizza7detail, #pizza8detail, #pizza9detail {
-  display: none;
-  font-size: 18px;
-
+.order{
+  padding: 40px 70px 40px 70px;
 }
-
-.summary p {
-  font-size: 15px;
+.custom-control, .custom-control-control {
+  display: inline;
+  padding-left: 20px;
 }
-.delivery {
+#variety{
+  padding-top: 30px;
+}
+.order{
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay{
+
+  margin-left: 2%;
+  margin-right: 2%;
   padding-bottom: 10px;
-
+  padding-left: 6%;
 }
-footer {
-  text-align: center;
-
+.choice{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
 }
+.deliver{
+  display: none;
+}
+.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 20px;
+  color: black;
+}
+.btn{
+  background-color: #f3b73a;
+}
+label{
+  font-size: 20px;
+}
+.choice h2{
+  color:black;
+  text-align: left;
+}
+#your-orders{
+  color: black;
+  font-size: 30px;
+}
+#finallmessage{
+  padding-top:20px;
+}
+/* footer */
+.footer-basic {
+  padding:40px 0;
+  background-color:rgb(66, 61, 61);
+  color:#f2f6fa;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  
+ 
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+          /*Contact page*/
+          #contact {
+            background:black;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          
+          #contact input {
+            height: 45px;
+          }
+          
+          #contact input,
+          #contact textarea {
+            background: transparent;
+            border-radius: 0;
+            color: #fff;
+          }
+          
+          #contact input::placeholder,
+          #contact textarea::placeholder {
+            color: #cccccc;
+          }
+          
+          #contact input:focus, #contact input:active,
+          #contact textarea:focus,
+          #contact textarea:active {
+            box-shadow: none;
+            border-color: #fff;
+          }
+          
+          #contact button:focus, #contact button:active {
+            box-shadow: none;
+            border-color: #fff;
+          }
+
+          /* media query */
+          @media screen  and (max-width:1200px) and (min-width:768px){
+            #contact {
+              background:black;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            
+            #contact input {
+              height: 45px;
+            }
+            
+            #contact input,
+            #contact textarea {
+              background: transparent;
+              border-radius: 0;
+              color: #fff;
+            }
+            
+            #contact input::placeholder,
+            #contact textarea::placeholder {
+              color: #cccccc;
+            }
+            
+            #contact input:focus, #contact input:active,
+            #contact textarea:focus,
+            #contact textarea:active {
+              box-shadow: none;
+              border-color: #fff;
+            }
+            
+            #contact button:focus, #contact button:active {
+              box-shadow: none;
+              border-color: #fff;
+            }
+          }
+
