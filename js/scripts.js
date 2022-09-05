@@ -524,13 +524,13 @@ var price , crust_price, topping_price ;
        console.log("nothing selected");
        $("button.proceed").show();
        $("#information").show();
-       $("div.choise").hide();
+       $("div.choice").hide();
        alert("Please select pizza size and crust"); 
      }
      else{
        $("button.proceed").hide();
        $("#information").hide();
-       $("div.choise").slideDown(1000);
+       $("div.choice").slideDown(1000);
      }
  
      total = price + crust_price + topping_value;
@@ -617,7 +617,7 @@ var price , crust_price, topping_price ;
      // home delivery button
      $("button.deliver").click(function(){
        $(".pizzatable").hide();
-       $(".choise h2").hide();
+       $(".choice h2").hide();
        $(".delivery").slideDown(1000);
        $("#addedprice").hide();
        $("button.deliver").hide();
@@ -634,7 +634,7 @@ var price , crust_price, topping_price ;
        $("#pizzatotal").hide();
        $(".delivery").hide();
        $("button#final-order").hide();
-       let deliveryamount= checkoutTotal+150;
+       let deliveryamount= checkoutTotal+200;
        console.log("Final Bill is: "+deliveryamount);
        let person = $("input#name").val();
        let phone = $("input#phone").val();
@@ -642,7 +642,7 @@ var price , crust_price, topping_price ;
  
        if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
    
-         $("#finallmessage").append(person+", we have recieved your order and will be delivered to you at "+location+ ". Total cost us kshs. "+deliveryamount);
+         $("#finallmessage").append(person+", we have recieved your order and will be delivered to you at "+location+ ". Total cost is kshs. "+deliveryamount);
          $("#totalbill").hide();
          $("#finallmessage").slideDown(1200);
        }

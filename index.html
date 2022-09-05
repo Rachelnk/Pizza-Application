@@ -24,8 +24,8 @@
                     <ul class='navbar-nav mx-auto'>                    
                       <li class='nav-item' ><a class="nav-link" href="#about">About</a></li>
                       <li class='nav-item' ><a class="nav-link" href="#menu">Menu</a></li>
-                      <li class='nav-item' ><a class="nav-link" href="#order">Make Order</a></li>                 
-                      <li class='nav-item' style=''><a class="nav-link" href="#about">About</a></li>
+                      <li class='nav-item' ><a class="nav-link" href="#order">Place Order</a></li>                 
+                      <li class='nav-item' ><a class="nav-link" href="#contact">Contact Us</a></li>
                      
                       
                     </ul>                      
@@ -100,7 +100,7 @@
                       
             </div>
             <div class="col-md-10">
-              <p class="pizza-description">Hawaiian<span class="dot"></span>800.00 <sup>kshs.</sup> </p>
+              <p class="pizza-description">Hawaiian<span class="dot"></span>850.00 <sup>kshs.</sup> </p>
               <p class="pizza-ingredients">Macon - Pineapple</p>
             </div>
             
@@ -111,7 +111,7 @@
                       
             </div>
             <div class="col-md-10">
-              <p class="pizza-description">BBQ Steak <span class="dot"></span>1000.00 <sup>kshs.</sup></p>
+              <p class="pizza-description">BBQ Steak <span class="dot"></span>850.00 <sup>kshs.</sup></p>
               <p class="pizza-ingredients">Marinated bbq steak</p>
             </div>
             
@@ -122,7 +122,7 @@
                       
             </div>
             <div class="col-md-10">
-              <p class="pizza-description">Chicken Tikka<span class="dot"></span>1000.00 <sup>kshs.</sup></p>
+              <p class="pizza-description">Chicken Tikka<span class="dot"></span>850.00 <sup>kshs.</sup></p>
               <p class="pizza-ingredients">Marinated tikka chicken - green pepper - onions</p>
             </div>
             
@@ -133,7 +133,7 @@
                       
             </div>
             <div class="col-md-10">
-              <p class="pizza-description">Chicken Mushroom<span class="dot"></span>900.00 <sup>kshs.</sup></p>
+              <p class="pizza-description">Chicken Mushroom<span class="dot"></span>850.00 <sup>kshs.</sup></p>
               <p class="pizza-ingredients">Succulent bbq chicken - mushroom - creamy mayo</p>
             </div>
             
@@ -144,7 +144,7 @@
                       
             </div>
             <div class="col-md-10">
-              <p class="pizza-description">Veg Tikka<span class="dot"></span>700.00 <sup>kshs.</sup></p>
+              <p class="pizza-description">Veg Tikka<span class="dot"></span>850.00 <sup>kshs.</sup></p>
               <p class="pizza-ingredients">sweetcorn - red & green pepper - mushroom - jalapeños - tikka sauce</p>
             </div>
             
@@ -155,8 +155,28 @@
                       
             </div>
             <div class="col-md-10">
-              <p class="pizza-description">Beef Pepperoni<span class="dot"></span>1000.00 <sup>kshs.</sup></p>
+              <p class="pizza-description">Beef Pepperoni<span class="dot"></span>850.00 <sup>kshs.</sup></p>
               <p class="pizza-ingredients">Beef pepperoni - mushroom - fresh onion</p>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <!-- <p><img src="/img/menu_icons/pizza6.png" alt="pizza1" width="70"> -->
+                      
+            </div>
+            <div class="col-md-10">
+              <p class="pizza-description">Large Pizza<span class="dot"></span>1200.00 <sup>kshs.</sup></p>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <!-- <p><img src="/img/menu_icons/pizza6.png" alt="pizza1" width="70"> -->
+                      
+            </div>
+            <div class="col-md-10">
+              <p class="pizza-description">Small Pizza<span class="dot"></span>600.00 <sup>kshs.</sup></p>
             </div>
             
           </div>
@@ -169,20 +189,24 @@
 
     <!-- Place Pizza order -->
     <div class="order container-fluid" id="make-order">
+      <div class="">
+        <h2>Order your pizza and get it delivered to your door step</h2>
+      </div>
+
     <div class="row">
-      <div class="col-sm-5">
+      <div style="padding-left: 20px;" class="col-sm-5">
         <h3>Place Order</h3>
         <form action="">
             <label for="select">Select Your Flavor</label>
             <select class="browser-default custom-select custom-select-md mb-3 name" >
             
-              <option value="" disabled selected>Select your Flavor</option>
-               <option value="Buffalo Chicken Sticks" >Buffalo Chicken Sticks</option>
-                <option value="PeriPeri Pizza">PeriPeri Pizza</option>
-                <option value="Chicken Tikka">Chicken Tikka</option> 
-                <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
-                <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
-                <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+              <option value="" disabled selected>Select option...</option>
+                <option value="Hawaiian">Hawaiian</option>
+                <option value="Bbq Steak">BBQ Steak</option>
+                <option value="Chicken Tikka">Chicken Tikka</option>
+                <option value="Chicken Mushroom">Chicken Mushroom</option>
+                <option value="Veg Tikka">Veg Tikka</option>
+                <option value="Beef Pepperoni">Beef Pepperoni</option>
                 
             </select>
             <label for="select">Select Size</label>
@@ -199,7 +223,7 @@
                 <option value="Stuffed">Stuffed -- sh. 150</option>
                 <option value="Gluten-free">Gluten-free-- sh. 180</option>
             </select>
-            <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+            <label for="Toppings" >Select Your Toppings at sh. 50 each</label><br>
             <div class="custom-control custom-checkbox custom-control-inline">
                 <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage"
                     name="toppings" required>
@@ -220,69 +244,10 @@
             #f3b73a;" type="submit" class="btn proceed">Proceed</button>
 
         </form>
-    </div>
-      <!-- <div class="col-md-5">
-        <h3>Place Order</h3>
-        <form action="" id="pizzaorder">
-          <div class="form-group">
-            <label for="Pizza Type">Select Pizza Flavor</label>
-              <select class="form-select" required>
-                <option value="" disabled selected>Select option...</option>
-                <option value="hawaiian">Hawaiian</option>
-                <option value="bbqsteak">BBQ Steak</option>
-                <option value="chickentikka">Chicken Tikka</option>
-                <option value="chickenmushroom">Chicken Mushroom</option>
-                <option value="vegtikka">Veg Tikka</option>
-                <option value="beefpepperoni">Beef Pepperoni</option>
-              
-              
-              </select>
-              
-          </div>
-          <div class="form-group">
-            <label for="pizzasize">Pizza Size</label>
-              <select name="" id="size" class="form-select">
-                <option value="" disalbed selected>Select option...</option>
-                <option value="small">Small @ 600</option>
-                <option value="medium">Medium @ 850</option>
-                <option value="large">Large @ 1200</option>
-              </select>
-          </div>
-          <div class="form-group">
-            <label for="pizzacrust">Pizza Crust</label>
-              <select name="" id="crust" class="form-select" required>
-                <option value="" disalbed selected>Select option...</option>
-                <option value="Crispy">Crispy @ 200</option>
-                <option value="Stuffed">Cheese Stuffed @ 150</option>
-                <option value="Gluten-Free">Gluten Free @ 180</option>
-                </select>
-          </div>
-          <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
-                        <div class="custom-control custom-checkbox custom-control-inline">
-                            <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage"
-                                name="toppings" required>
-                            <label class="custom-control-label" for="Sausage">Sausage</label>
-                        </div>
-                        <div class="custom-control custom-checkbox custom-control-inline">
-                            <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon"
-                                name="toppings" required>
-                            <label class="custom-control-label" for="Bacon">Bacon</label>
-                        </div>
-                        <div class="custom-control custom-checkbox custom-control-inline">
-                            <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms"
-                                name="toppings" required>
-                            <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
-                        </div>
-                        <br><br>
-                  
-          <button type="submit" class="btn btn-primary proceed">Add</button>
-
-        </form>
-        
-      </div> -->
+    </div>    
       
         <div class="col-sm-7">
-                <div class="choise">
+                <div class="choice">
                 <h2>Your Order is:</h2>
                 <div id="your-orders">
                     <table class="table table-sm  pizzatable">
@@ -310,9 +275,9 @@
                     <p id="addedprice">Delivery will cost sh. 200</p>
                     <p id="finallmessage"></p>
                 </div>
-                <button class="btn addPizza">Add Pizza</button>
-                <button class="btn btn-orange" id="checkout">Checkout</button>
-                <button class="btn btn-orange deliver">Home delivery?</button>
+                <button style="background-color: #f3b73a; font-size: 15px;" class="btn addPizza">Add Pizza</button>
+                <button style="background-color: #f3b73a; font-size: 15px;" class="btn btn-orange" id="checkout">Checkout</button>
+                <button style="background-color: #f3b73a; font-size: 15px;" class="btn btn-orange deliver">Home delivery?</button>
             </div>
             <div class="delivery">
                 <form action="">
@@ -331,50 +296,95 @@
      
     </div>
   </div>
-    <footer>
-     <p>
-      <img src="/img/social_icons/behance.png" alt="" srcset="">
-      <img src="/img/social_icons/dribble.png" alt="" srcset="">
-      <img src="/img/social_icons/twitter.png" alt="" srcset="">
-     </p> 
-     <p>
-      Kiarie's Pizza Joint.
-     </p>
-     <p id = "currentyear"></p>
-    </footer>
-    <script>
-      // counting effect
-      let counts=setInterval(updated);
-        let upto=0;
-        function updated(){
-            var count= document.getElementById("counter-1");
-            count.innerHTML=++upto;
-            
-            if(upto===1000)
-            {
-                clearInterval(counts);
-            }
-        }
-
-        let counts2=setInterval(updated2);
-        let upto2=0;
-        function updated2(){
-            var count= document.getElementById("counter-2");
-            count.innerHTML=++upto2;
-            
-            if(upto2===800)
-            {
-                clearInterval(counts2);
-            }
-        }
-
-      // year 
-      const d = new Date ();
-      let year = d.getFullYear();
-      document.getElementById("currentyear").innerHTML=year;
-    </script>
-    
-
+   <!-- Contact Us Page -->
+   <section class="py-5" id="contact">
+    <div class="container">
+        <h1 class="text-center text-uppercase pb-3 text-white">Contact us</h1>
+        <p class="text-center" style="color: white;" >Got any questions for us? Ask Away. Or give us your feedback. Thank You.</p>
+        <div class="row mt-3 justify-content-center">
+            <form action="" class="col-md-8 col-lg-7" id="contact-form">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control name" placeholder="Name...">
+                        <div class="invalid-feedback">
+                            Please provide your name.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Email...">
+                        <div class="invalid-feedback">
+                            Please provide your email.
+                        </div>
+                    </div>
+                    <div class="col-md-12 ps-0 ps-md-3">
+                        <textarea name="message" id="message" rows="6" class="form-control"
+                            placeholder="Your message here..."></textarea>
+                        <div class="invalid-feedback">
+                            Please provide a message.
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 text-center">
+                    <button class="btn border-1 border-white text-white">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+      </section>
+       <!-- Footer -->
+    <section>
+        <div class="footer-basic">
+          <footer>
+              <div class="social">
+                <a href="#"> <img src="/img/social_icons/behance.png" alt="" width="50"/> </a>
+                <a href="#"><img src="/img/social_icons/dribble.png" alt="" width="50"/></a>
+                <a href="#"><img src="img/social_icons/twitter.png" alt="" width="50"/></i></a>
+              </div>
+              <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#home">Home</a></li>
+                  <li class="list-inline-item"><a href="#about">About</a></li> 
+                  <li class="list-inline-item"><a href="#order">Place Order</a></li>
+                  <li class="list-inline-item"><a href="#contact">Contact</a></li>
+              </ul>
+              <p class="copyright">Kiarie's Pizza Joint</p>
+              <p class="text-center" id = "currentyear"></p>
+              <script>
+                // counting effect
+                let counts=setInterval(updated);
+                  let upto=0;
+                  function updated(){
+                      var count= document.getElementById("counter-1");
+                      count.innerHTML=++upto;
+                      
+                      if(upto===1000)
+                      {
+                          clearInterval(counts);
+                      }
+                  }
+          
+                  let counts2=setInterval(updated2);
+                  let upto2=0;
+                  function updated2(){
+                      var count= document.getElementById("counter-2");
+                      count.innerHTML=++upto2;
+                      
+                      if(upto2===800)
+                      {
+                          clearInterval(counts2);
+                      }
+                  }
+          
+                // year 
+                const d = new Date ();
+                let year = d.getFullYear();
+                document.getElementById("currentyear").innerHTML=year;
+              </script>
+          </footer>
+      </div>
+      </section>     
   </div>
   
 </body>
