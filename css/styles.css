@@ -8,12 +8,14 @@ body {
 
 }
 .nav-item{
-  font-size: 30px; 
+  font-size: 25px; 
   padding: 0 20px;
   padding-top: 10px !important;
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
 }
 .navbar-brand{
-  font-size: 60px;
+   
   font-family: 'Lobster', cursive;
 }
 nav{
@@ -27,7 +29,6 @@ nav{
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-
 }
 .banner h1 {
   font-size: 70px;
@@ -35,8 +36,14 @@ nav{
 
 }
 .banner p { 
-  font-size: 40px;
-  color: white;
+  color: black;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-color: 
+  #f3b73a;
+  /* background-color: hsl(41,80%,40%); */
+  margin: 150px
+
 
 }
 h1, h2, h3, h5, h6, h4 {
@@ -46,28 +53,26 @@ h1, h2, h3, h5, h6, h4 {
 
 }
 p {
-  font-family: 'Nanum Myeongjo', serif; 
+  font-family: 'Abel', sans-serif;
 
 }
 
 .about{
-  padding-top: 50px;
+  padding-top: 40px;
   background-color:#eceeed;
   text-align: center;
 }
 .about p{
   font-size: 30px;
-  font-weight: bold;
   
 }
 .qualities{
   text-align: center;
   padding-top: 50px;
   margin: 0 10px 0 10px;
+  padding-bottom: 20px;
 }
-/* .line{
-  color:#f7b13b;
-} */
+
 .quality-icons{
   display: block;
   margin-left: auto;
@@ -79,8 +84,16 @@ p {
 } */
 .menu{
   padding: 40px 40px 40px 40px;
+  background-image: url("/img/pics/pizza5.jpg");
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  /* height: 100vh; */
   
-  background-color:#eceeed;
+  /* background-color:#eceeed;
+   */
 }
 .menu, p {
   font-size: 25px;
@@ -96,6 +109,7 @@ p {
   margin:0 10px ;
   border-bottom: 5px dotted black;
   height: 1.0em;
+  
 }
 .pizza-ingredients{
   font-size: 20px;
